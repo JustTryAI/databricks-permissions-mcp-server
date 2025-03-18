@@ -38,6 +38,7 @@ dev = [
 
 [project.scripts]
 databricks-permissions-mcp = "src.cli.commands:main"
+databricks-permissions-mcp-server = "src.server.databricks_permissions_mcp_server:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"] 
